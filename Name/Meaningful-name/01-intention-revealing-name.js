@@ -43,7 +43,7 @@ function gerFlaggedCell(){
 function gerFlaggedCell(){
   var gameBoard = [1,2,4];
   var flaggedCell = [];
-  const STATUS_VALUE = 4;
+  // const STATUS_VALUE = 4;
 
   for(cell in gameBoard){
     if(cell.isFlagged()){
@@ -54,5 +54,7 @@ function gerFlaggedCell(){
   return flaggedCell;
   
 }
+
+
 
 
